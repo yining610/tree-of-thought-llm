@@ -1,7 +1,7 @@
 python run.py \
     --task game24 \
     --task_file_path 24.csv \
-    --task_start_index 900 \
+    --task_start_index 999 \
     --task_end_index 1000 \
     --method_generate propose \
     --method_evaluate value \

@@ -62,6 +62,7 @@ def solve(args, task, idx, to_print=True):
         elif args.method_generate == 'propose':
             new_ys = [get_proposals(task, x, y) for y in ys]
         new_ys = list(itertools.chain(*new_ys))
+
         ids = list(range(len(new_ys)))
         # evaluation
         if args.method_evaluate == 'vote':
